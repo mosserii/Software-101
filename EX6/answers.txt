@@ -1,0 +1,22 @@
+/* @pre o is not null
+
+public void push(Object o) {
+	    	elements.add(o);
+	    }
+
+contrary example :
+Object o1 = null;
+push(o1);
+the inv won't be assured if o == null.
+
+
+
+
+
+ *  @post @return == true iff elements.size() == 0
+	     */
+	    public boolean isEmpty() {
+	        return elements.size() == 0;
+	    }
+
+contrary example : if element size was 2, it'd return false, while the contract promised to return true
