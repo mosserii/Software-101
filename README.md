@@ -1,2 +1,2 @@
-# Software-101
-Software 101 home assignments 
+# Software-101 home assignments 
+assignments average grade : 94.8
